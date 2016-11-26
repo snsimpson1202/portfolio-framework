@@ -41,9 +41,6 @@ h1 {
     width: 25%;
 }
 
-.col-4 {
-    width: 33.33%;
-}
 
 .col-5 {
     width: 41.66%;
@@ -67,6 +64,7 @@ h1 {
 
 .col-10 {
     width: 83.33%;
+
 }
 
 .col-11 {
@@ -75,4 +73,15 @@ h1 {
 
 .col-12 {
     width: 100%;
+}
+
+#name, #job {
+    text-align: right;
+    color: black;
+}
+
+.row .col-4 {
+    text-align: center;
+    
+    width: 33.33%;
 }
